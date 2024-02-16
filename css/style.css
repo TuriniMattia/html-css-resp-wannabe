@@ -135,5 +135,9 @@ img {
 @media (max-width:480px) {
     .row {
         flex-wrap: wrap;
+        gap: 30px;
+    }
+    .row > .col {
+        width: 100%;
     }
 }
